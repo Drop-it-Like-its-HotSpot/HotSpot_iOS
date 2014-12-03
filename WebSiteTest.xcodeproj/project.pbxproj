@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		948616611970CE40009BB828 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 948616601970CE40009BB828 /* LoginViewController.m */; };
+		9488711B1A1FFB64004CE2AF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9488711A1A1FFB64004CE2AF /* MapKit.framework */; };
+		9488711E1A202263004CE2AF /* Chatroom.m in Sources */ = {isa = PBXBuildFile; fileRef = 9488711D1A202263004CE2AF /* Chatroom.m */; };
+		948871211A2022DA004CE2AF /* Chatroom+Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 948871201A2022DA004CE2AF /* Chatroom+Annotation.m */; };
 		949C877D191D4E560049DC9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 949C877C191D4E560049DC9D /* Foundation.framework */; };
 		949C877F191D4E560049DC9D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 949C877E191D4E560049DC9D /* CoreGraphics.framework */; };
 		949C8781191D4E560049DC9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 949C8780191D4E560049DC9D /* UIKit.framework */; };
@@ -15,13 +19,25 @@
 		949C878D191D4E570049DC9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 949C878C191D4E570049DC9D /* AppDelegate.m */; };
 		949C8790191D4E580049DC9D /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 949C878E191D4E580049DC9D /* Main_iPhone.storyboard */; };
 		949C8793191D4E580049DC9D /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 949C8791191D4E580049DC9D /* Main_iPad.storyboard */; };
-		949C8796191D4E580049DC9D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 949C8795191D4E580049DC9D /* ViewController.m */; };
 		949C8798191D4E590049DC9D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 949C8797191D4E590049DC9D /* Images.xcassets */; };
 		949C879F191D4E5C0049DC9D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 949C879E191D4E5C0049DC9D /* XCTest.framework */; };
 		949C87A0191D4E5C0049DC9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 949C877C191D4E560049DC9D /* Foundation.framework */; };
 		949C87A1191D4E5C0049DC9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 949C8780191D4E560049DC9D /* UIKit.framework */; };
 		949C87A9191D4E5D0049DC9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 949C87A7191D4E5D0049DC9D /* InfoPlist.strings */; };
 		949C87AB191D4E5D0049DC9D /* WebSiteTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 949C87AA191D4E5D0049DC9D /* WebSiteTestTests.m */; };
+		94BD3D821A12B781003F0FD4 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BD3D811A12B781003F0FD4 /* SignUpViewController.m */; };
+		94BD3D8B1A13D61F003F0FD4 /* ChatModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94BD3D891A13D61F003F0FD4 /* ChatModel.xcdatamodeld */; };
+		94BD3D911A1A54CC003F0FD4 /* ProfileTBC.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BD3D901A1A54CC003F0FD4 /* ProfileTBC.m */; };
+		94BD3D941A1AB715003F0FD4 /* Users.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BD3D931A1AB715003F0FD4 /* Users.m */; };
+		94BD3D971A1AB717003F0FD4 /* Chatroomusers.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BD3D961A1AB717003F0FD4 /* Chatroomusers.m */; };
+		94BD3DAC1A1C3627003F0FD4 /* Messages.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BD3DAB1A1C3627003F0FD4 /* Messages.m */; };
+		94D4B1E71A2280FF00D56B1A /* ChatroomsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D4B1E61A2280FF00D56B1A /* ChatroomsTVC.m */; };
+		94D4B1ED1A22AB7400D56B1A /* ChatroomsMapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D4B1EC1A22AB7400D56B1A /* ChatroomsMapVC.m */; };
+		94D4B1F01A22AE2F00D56B1A /* MessagesTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D4B1EF1A22AE2F00D56B1A /* MessagesTVC.m */; };
+		94D4B1F31A22E2D400D56B1A /* MapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D4B1F21A22E2D400D56B1A /* MapAnnotation.m */; };
+		94D4B1FF1A2A2E1300D56B1A /* CreateChatroom.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D4B1FE1A2A2E1300D56B1A /* CreateChatroom.m */; };
+		94D4B2021A2BED3600D56B1A /* SettingsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D4B2011A2BED3600D56B1A /* SettingsVC.m */; };
+		94D4B2051A2BFDE300D56B1A /* UpdateProfileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D4B2041A2BFDE300D56B1A /* UpdateProfileVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +51,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9486165F1970CE40009BB828 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		948616601970CE40009BB828 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		9488711A1A1FFB64004CE2AF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		9488711C1A202262004CE2AF /* Chatroom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chatroom.h; sourceTree = "<group>"; };
+		9488711D1A202263004CE2AF /* Chatroom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chatroom.m; sourceTree = "<group>"; };
+		9488711F1A2022DA004CE2AF /* Chatroom+Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Chatroom+Annotation.h"; sourceTree = "<group>"; };
+		948871201A2022DA004CE2AF /* Chatroom+Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Chatroom+Annotation.m"; sourceTree = "<group>"; };
 		949C8779191D4E560049DC9D /* WebSiteTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebSiteTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		949C877C191D4E560049DC9D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		949C877E191D4E560049DC9D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,14 +70,37 @@
 		949C878C191D4E570049DC9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		949C878F191D4E580049DC9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		949C8792191D4E580049DC9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		949C8794191D4E580049DC9D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		949C8795191D4E580049DC9D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		949C8797191D4E590049DC9D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		949C879D191D4E5C0049DC9D /* WebSiteTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebSiteTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		949C879E191D4E5C0049DC9D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		949C87A6191D4E5D0049DC9D /* WebSiteTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebSiteTestTests-Info.plist"; sourceTree = "<group>"; };
 		949C87A8191D4E5D0049DC9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		949C87AA191D4E5D0049DC9D /* WebSiteTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebSiteTestTests.m; sourceTree = "<group>"; };
+		94BD3D801A12B781003F0FD4 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		94BD3D811A12B781003F0FD4 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		94BD3D8A1A13D61F003F0FD4 /* ChatModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChatModel.xcdatamodel; sourceTree = "<group>"; };
+		94BD3D8F1A1A54CB003F0FD4 /* ProfileTBC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileTBC.h; sourceTree = "<group>"; };
+		94BD3D901A1A54CC003F0FD4 /* ProfileTBC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileTBC.m; sourceTree = "<group>"; };
+		94BD3D921A1AB715003F0FD4 /* Users.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Users.h; sourceTree = "<group>"; };
+		94BD3D931A1AB715003F0FD4 /* Users.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Users.m; sourceTree = "<group>"; };
+		94BD3D951A1AB716003F0FD4 /* Chatroomusers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chatroomusers.h; sourceTree = "<group>"; };
+		94BD3D961A1AB717003F0FD4 /* Chatroomusers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chatroomusers.m; sourceTree = "<group>"; };
+		94BD3DAA1A1C3627003F0FD4 /* Messages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Messages.h; sourceTree = "<group>"; };
+		94BD3DAB1A1C3627003F0FD4 /* Messages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Messages.m; sourceTree = "<group>"; };
+		94D4B1E51A2280FF00D56B1A /* ChatroomsTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatroomsTVC.h; sourceTree = "<group>"; };
+		94D4B1E61A2280FF00D56B1A /* ChatroomsTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatroomsTVC.m; sourceTree = "<group>"; };
+		94D4B1EB1A22AB7400D56B1A /* ChatroomsMapVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatroomsMapVC.h; sourceTree = "<group>"; };
+		94D4B1EC1A22AB7400D56B1A /* ChatroomsMapVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatroomsMapVC.m; sourceTree = "<group>"; };
+		94D4B1EE1A22AE2F00D56B1A /* MessagesTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagesTVC.h; sourceTree = "<group>"; };
+		94D4B1EF1A22AE2F00D56B1A /* MessagesTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagesTVC.m; sourceTree = "<group>"; };
+		94D4B1F11A22E2D300D56B1A /* MapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapAnnotation.h; sourceTree = "<group>"; };
+		94D4B1F21A22E2D400D56B1A /* MapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapAnnotation.m; sourceTree = "<group>"; };
+		94D4B1FD1A2A2E1300D56B1A /* CreateChatroom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateChatroom.h; sourceTree = "<group>"; };
+		94D4B1FE1A2A2E1300D56B1A /* CreateChatroom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateChatroom.m; sourceTree = "<group>"; };
+		94D4B2001A2BED3500D56B1A /* SettingsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsVC.h; sourceTree = "<group>"; };
+		94D4B2011A2BED3600D56B1A /* SettingsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsVC.m; sourceTree = "<group>"; };
+		94D4B2031A2BFDE300D56B1A /* UpdateProfileVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateProfileVC.h; sourceTree = "<group>"; };
+		94D4B2041A2BFDE300D56B1A /* UpdateProfileVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateProfileVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9488711B1A1FFB64004CE2AF /* MapKit.framework in Frameworks */,
 				949C877F191D4E560049DC9D /* CoreGraphics.framework in Frameworks */,
 				949C8781191D4E560049DC9D /* UIKit.framework in Frameworks */,
 				949C877D191D4E560049DC9D /* Foundation.framework in Frameworks */,
@@ -103,6 +150,7 @@
 		949C877B191D4E560049DC9D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9488711A1A1FFB64004CE2AF /* MapKit.framework */,
 				949C877C191D4E560049DC9D /* Foundation.framework */,
 				949C877E191D4E560049DC9D /* CoreGraphics.framework */,
 				949C8780191D4E560049DC9D /* UIKit.framework */,
@@ -114,12 +162,41 @@
 		949C8782191D4E560049DC9D /* WebSiteTest */ = {
 			isa = PBXGroup;
 			children = (
+				94BD3D891A13D61F003F0FD4 /* ChatModel.xcdatamodeld */,
+				9488711C1A202262004CE2AF /* Chatroom.h */,
+				9488711D1A202263004CE2AF /* Chatroom.m */,
+				9488711F1A2022DA004CE2AF /* Chatroom+Annotation.h */,
+				948871201A2022DA004CE2AF /* Chatroom+Annotation.m */,
+				94BD3DAA1A1C3627003F0FD4 /* Messages.h */,
+				94BD3DAB1A1C3627003F0FD4 /* Messages.m */,
+				94BD3D951A1AB716003F0FD4 /* Chatroomusers.h */,
+				94BD3D961A1AB717003F0FD4 /* Chatroomusers.m */,
+				94BD3D921A1AB715003F0FD4 /* Users.h */,
+				94BD3D931A1AB715003F0FD4 /* Users.m */,
 				949C878B191D4E570049DC9D /* AppDelegate.h */,
 				949C878C191D4E570049DC9D /* AppDelegate.m */,
 				949C878E191D4E580049DC9D /* Main_iPhone.storyboard */,
 				949C8791191D4E580049DC9D /* Main_iPad.storyboard */,
-				949C8794191D4E580049DC9D /* ViewController.h */,
-				949C8795191D4E580049DC9D /* ViewController.m */,
+				94D4B2001A2BED3500D56B1A /* SettingsVC.h */,
+				94D4B2011A2BED3600D56B1A /* SettingsVC.m */,
+				94D4B2031A2BFDE300D56B1A /* UpdateProfileVC.h */,
+				94D4B2041A2BFDE300D56B1A /* UpdateProfileVC.m */,
+				94D4B1F11A22E2D300D56B1A /* MapAnnotation.h */,
+				94D4B1F21A22E2D400D56B1A /* MapAnnotation.m */,
+				94BD3D8F1A1A54CB003F0FD4 /* ProfileTBC.h */,
+				94BD3D901A1A54CC003F0FD4 /* ProfileTBC.m */,
+				94D4B1EB1A22AB7400D56B1A /* ChatroomsMapVC.h */,
+				94D4B1EC1A22AB7400D56B1A /* ChatroomsMapVC.m */,
+				94D4B1EE1A22AE2F00D56B1A /* MessagesTVC.h */,
+				94D4B1EF1A22AE2F00D56B1A /* MessagesTVC.m */,
+				94D4B1E51A2280FF00D56B1A /* ChatroomsTVC.h */,
+				94D4B1E61A2280FF00D56B1A /* ChatroomsTVC.m */,
+				94D4B1FD1A2A2E1300D56B1A /* CreateChatroom.h */,
+				94D4B1FE1A2A2E1300D56B1A /* CreateChatroom.m */,
+				94BD3D801A12B781003F0FD4 /* SignUpViewController.h */,
+				94BD3D811A12B781003F0FD4 /* SignUpViewController.m */,
+				9486165F1970CE40009BB828 /* LoginViewController.h */,
+				948616601970CE40009BB828 /* LoginViewController.m */,
 				949C8797191D4E590049DC9D /* Images.xcassets */,
 				949C8783191D4E560049DC9D /* Supporting Files */,
 			);
@@ -253,9 +330,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				949C8796191D4E580049DC9D /* ViewController.m in Sources */,
+				948616611970CE40009BB828 /* LoginViewController.m in Sources */,
+				94D4B2051A2BFDE300D56B1A /* UpdateProfileVC.m in Sources */,
+				94D4B1F01A22AE2F00D56B1A /* MessagesTVC.m in Sources */,
 				949C878D191D4E570049DC9D /* AppDelegate.m in Sources */,
+				94D4B1ED1A22AB7400D56B1A /* ChatroomsMapVC.m in Sources */,
+				94BD3DAC1A1C3627003F0FD4 /* Messages.m in Sources */,
+				94D4B2021A2BED3600D56B1A /* SettingsVC.m in Sources */,
+				9488711E1A202263004CE2AF /* Chatroom.m in Sources */,
+				94D4B1E71A2280FF00D56B1A /* ChatroomsTVC.m in Sources */,
+				94BD3D821A12B781003F0FD4 /* SignUpViewController.m in Sources */,
+				948871211A2022DA004CE2AF /* Chatroom+Annotation.m in Sources */,
 				949C8789191D4E570049DC9D /* main.m in Sources */,
+				94BD3D941A1AB715003F0FD4 /* Users.m in Sources */,
+				94BD3D911A1A54CC003F0FD4 /* ProfileTBC.m in Sources */,
+				94D4B1FF1A2A2E1300D56B1A /* CreateChatroom.m in Sources */,
+				94BD3D8B1A13D61F003F0FD4 /* ChatModel.xcdatamodeld in Sources */,
+				94BD3D971A1AB717003F0FD4 /* Chatroomusers.m in Sources */,
+				94D4B1F31A22E2D400D56B1A /* MapAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,10 +482,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ryan Farrell (R4X2232K86)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ryan Farrell (R4X2232K86)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WebSiteTest/WebSiteTest-Prefix.pch";
 				INFOPLIST_FILE = "WebSiteTest/WebSiteTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a23b9024-ffab-44ab-a058-67cc5aec67ac";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -403,10 +498,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ryan Farrell (R4X2232K86)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ryan Farrell (R4X2232K86)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WebSiteTest/WebSiteTest-Prefix.pch";
 				INFOPLIST_FILE = "WebSiteTest/WebSiteTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a23b9024-ffab-44ab-a058-67cc5aec67ac";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -470,6 +568,7 @@
 				949C87B0191D4E5D0049DC9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		949C87B1191D4E5D0049DC9D /* Build configuration list for PBXNativeTarget "WebSiteTestTests" */ = {
 			isa = XCConfigurationList;
@@ -478,8 +577,22 @@
 				949C87B3191D4E5D0049DC9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		94BD3D891A13D61F003F0FD4 /* ChatModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				94BD3D8A1A13D61F003F0FD4 /* ChatModel.xcdatamodel */,
+			);
+			currentVersion = 94BD3D8A1A13D61F003F0FD4 /* ChatModel.xcdatamodel */;
+			path = ChatModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 949C8771191D4E560049DC9D /* Project object */;
 }
